@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="375d9b24-e13f-4091-b2ee-1346901f9397" name="Changes" comment="" />
+=======
+    <list default="true" id="3d444788-28a4-4a2c-bd80-c3d1b8a3630b" name="变更" comment="" />
+>>>>>>> d5b17a9fd1979a00f4e270be1a4e6e4dcdcb642b
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
