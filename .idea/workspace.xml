@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d444788-28a4-4a2c-bd80-c3d1b8a3630b" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/WEB/easy_upload/src/flag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB/checkme/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB/checkme/src/flag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB/checkme/src/flag.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB/checkme/src/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
