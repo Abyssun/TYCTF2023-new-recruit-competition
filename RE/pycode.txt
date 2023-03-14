@@ -1,0 +1,157 @@
+ 4           0 LOAD_CONST               1 ('W3l_c0me_tO_Qsn_cTf')
+              2 STORE_FAST               0 (key2)
+
+  5           4 BUILD_MAP                0
+              6 STORE_FAST               1 (flag)
+
+  6           8 LOAD_CONST               2 (113)
+             10 LOAD_CONST               3 (32)
+             12 LOAD_CONST               4 (77)
+             14 LOAD_CONST               5 (120)
+             16 LOAD_CONST               6 (28)
+             18 LOAD_CONST               7 (16)
+             20 LOAD_CONST               8 (76)
+             22 LOAD_CONST               9 (64)
+             24 LOAD_CONST               2 (121)
+             26 LOAD_CONST               7 (84)
+             28 LOAD_CONST              10 (108)
+             30 LOAD_CONST              11 (123)
+             32 LOAD_CONST              12 (55)
+             34 LOAD_CONST              13 (87)
+             36 LOAD_CONST              14 (73)
+             38 LOAD_CONST              15 (118)
+             40 LOAD_CONST              16 (22)
+             42 LOAD_CONST               2 (114)
+             44 LOAD_CONST              17 (68)
+             46 LOAD_CONST              10 (116)
+             48 LOAD_CONST              18 (67)
+             50 LOAD_CONST              13 (72)
+             52 LOAD_CONST              10 (124)
+             54 LOAD_CONST              17 (65)
+             56 LOAD_CONST              19 (65)
+             58 LOAD_CONST              20 (75)
+             60 LOAD_CONST              10 (70)
+             62 LOAD_CONST               8 (126)
+             64 LOAD_CONST              17 (86)
+             66 LOAD_CONST              21 (42)
+             68 LOAD_CONST               8 (126)
+             70 LOAD_CONST              22 (114)
+             72 LOAD_CONST               4 (82)
+             74 LOAD_CONST               8 (79)
+             76 LOAD_CONST               4 (126)
+             78 LOAD_CONST              14 (68)
+             80 LOAD_CONST              23 (118)
+             82 LOAD_CONST              24 (31)
+             84 BUILD_LIST              38
+             86 STORE_FAST               2 (key1)
+
+  7          88 LOAD_GLOBAL              0 (range)
+             90 LOAD_CONST              25 (0)
+             92 LOAD_GLOBAL              1 (len)
+             94 LOAD_FAST                2 (key1)
+             96 CALL_FUNCTION            1
+             98 CALL_FUNCTION            2
+            100 GET_ITER
+        >>  102 FOR_ITER               182 (to 286)
+            104 STORE_FAST               3 (i)
+
+  8         106 LOAD_FAST                2 (key1)
+            108 LOAD_FAST                3 (i)
+            110 BINARY_SUBSCR
+            112 LOAD_CONST               7 (48)
+            114 COMPARE_OP               5 (>=)
+            116 POP_JUMP_IF_FALSE      148
+            118 LOAD_FAST                2 (key1)
+            120 LOAD_FAST                3 (i)
+            122 BINARY_SUBSCR
+            124 LOAD_CONST              15 (57)
+            126 COMPARE_OP               1 (<=)
+            128 POP_JUMP_IF_FALSE      148
+
+  9         130 LOAD_FAST                2 (key1)
+            132 LOAD_FAST                3 (i)
+            134 BINARY_SUBSCR
+            136 LOAD_CONST              26 (16)
+            138 BINARY_XOR
+            140 LOAD_FAST                1 (flag)
+            142 LOAD_FAST                3 (i)
+            144 STORE_SUBSCR
+            146 JUMP_FORWARD           100 (to 248)
+
+ 10     >>  148 LOAD_FAST                2 (key1)
+            150 LOAD_FAST                3 (i)
+            152 BINARY_SUBSCR
+            154 LOAD_CONST              27 (65)
+            156 COMPARE_OP               5 (>=)
+            158 POP_JUMP_IF_FALSE      190
+            160 LOAD_FAST                2 (key1)
+            162 LOAD_FAST                3 (i)
+            164 BINARY_SUBSCR
+            166 LOAD_CONST              28 (89)
+            168 COMPARE_OP               1 (<=)
+            170 POP_JUMP_IF_FALSE      190
+
+ 11         172 LOAD_FAST                2 (key1)
+            174 LOAD_FAST                3 (i)
+            176 BINARY_SUBSCR
+            178 LOAD_CONST              29 (32)
+            180 BINARY_XOR
+            182 LOAD_FAST                1 (flag)
+            184 LOAD_FAST                3 (i)
+            186 STORE_SUBSCR
+            188 JUMP_FORWARD            58 (to 248)
+
+ 12     >>  190 LOAD_FAST                2 (key1)
+            192 LOAD_FAST                3 (i)
+            194 BINARY_SUBSCR
+            196 LOAD_CONST               4 (97)
+            198 COMPARE_OP               5 (>=)
+            200 POP_JUMP_IF_FALSE      232
+            202 LOAD_FAST                2 (key1)
+            204 LOAD_FAST                3 (i)
+            206 BINARY_SUBSCR
+            208 LOAD_CONST              30 (122)
+            210 COMPARE_OP               1 (<=)
+            212 POP_JUMP_IF_FALSE      232
+
+ 13         214 LOAD_FAST                2 (key1)
+            216 LOAD_FAST                3 (i)
+            218 BINARY_SUBSCR
+            220 LOAD_CONST              31 (64)
+            222 BINARY_XOR
+            224 LOAD_FAST                1 (flag)
+            226 LOAD_FAST                3 (i)
+            228 STORE_SUBSCR
+            230 JUMP_FORWARD            16 (to 248)
+
+ 15     >>  232 LOAD_FAST                2 (key1)
+            234 LOAD_FAST                3 (i)
+            236 BINARY_SUBSCR
+            238 LOAD_CONST              32 (4)
+            240 BINARY_XOR
+            242 LOAD_FAST                1 (flag)
+            244 LOAD_FAST                3 (i)
+            246 STORE_SUBSCR
+
+ 17     >>  248 LOAD_GLOBAL              2 (list)
+            250 LOAD_FAST                1 (flag)
+            252 LOAD_METHOD              3 (values)
+            254 CALL_METHOD              0
+            256 CALL_FUNCTION            1
+            258 STORE_FAST               4 (value1)
+
+ 19         260 LOAD_FAST                4 (value1)
+            262 LOAD_FAST                3 (i)
+            264 BINARY_SUBSCR
+            266 LOAD_GLOBAL              4 (ord)
+            268 LOAD_FAST                0 (key2)
+            270 LOAD_FAST                3 (i)
+            272 LOAD_CONST              33 (19)
+            274 BINARY_MODULO
+            276 BINARY_SUBSCR
+            278 CALL_FUNCTION            1
+            280 BINARY_XOR
+            282 STORE_FAST               5 (final_flag)
+            284 JUMP_ABSOLUTE          102
+        >>  286 LOAD_CONST               0 (None)
+            288 RETURN_VALUE
