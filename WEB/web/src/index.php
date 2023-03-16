@@ -1,2 +1,7 @@
-<?php include($_GET['url']);
+
+
+
+<?php
+highlight_file('index.php');
+include($_GET['url']);
 ?>
