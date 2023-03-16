@@ -9,4 +9,4 @@ if($_COOKIE['admin']==1)
 }
 else
     echo "小饼干最好吃啦！";
-?> 小饼干最好吃啦！<?php
+?> rasalghul.php<?php
